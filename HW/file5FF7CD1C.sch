@@ -431,8 +431,6 @@ Wire Wire Line
 Connection ~ 7850 5400
 Wire Wire Line
 	7850 5400 8200 5400
-Wire Wire Line
-	7850 5050 7850 5400
 $Comp
 L power:VSS #PWR021
 U 1 1 60024900
@@ -472,11 +470,6 @@ Text Notes 2600 6750 0    50   ~ 0
 Set capacitor \nas neer to pin as possible
 Text Notes 3900 6750 0    50   ~ 0
 Set capacitor \nas neer to pin as possible
-Wire Wire Line
-	6500 6000 6650 6000
-Wire Wire Line
-	6350 6000 6500 6000
-Connection ~ 6500 6000
 Wire Wire Line
 	6500 6350 6500 6000
 $Comp
@@ -1032,10 +1025,17 @@ Wire Bus Line
 	10250 5750 10400 5750
 Wire Wire Line
 	1600 1350 2700 1350
-Wire Bus Line
-	9100 3800 9100 4000
+Connection ~ 6500 6000
+Wire Wire Line
+	6350 6000 6500 6000
+Wire Wire Line
+	6500 6000 6650 6000
+Wire Wire Line
+	7850 5050 7850 5400
 Wire Bus Line
 	9100 4150 9100 4350
+Wire Bus Line
+	9100 3800 9100 4000
 Wire Bus Line
 	9100 3000 9100 3600
 Wire Bus Line
@@ -1045,7 +1045,7 @@ Wire Bus Line
 Wire Bus Line
 	10250 5000 10250 5750
 Wire Bus Line
-	3650 4600 3650 5650
-Wire Bus Line
 	5550 4650 5550 5550
+Wire Bus Line
+	3650 4600 3650 5650
 $EndSCHEMATC
