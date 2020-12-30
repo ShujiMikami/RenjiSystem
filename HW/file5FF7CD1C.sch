@@ -181,10 +181,6 @@ NoConn ~ 6000 3800
 NoConn ~ 6000 3700
 NoConn ~ 6000 3500
 NoConn ~ 6000 3400
-NoConn ~ 6000 3300
-NoConn ~ 6000 3200
-NoConn ~ 6500 3200
-NoConn ~ 6500 3100
 NoConn ~ 6500 3300
 NoConn ~ 6500 3400
 NoConn ~ 6500 3500
@@ -881,22 +877,22 @@ Text HLabel 10200 2550 2    50   Output ~ 0
 INSTRUMENT_CTRL[2..0]
 Wire Bus Line
 	9950 2550 10200 2550
-Text Label 5150 1450 0    50   ~ 0
+Text Label 5150 3200 0    50   ~ 0
 LED_SIGNAL_RED
-Text Label 5150 1550 0    50   ~ 0
+Text Label 7350 3200 2    50   ~ 0
 LED_SIGNAL_ORANGE
-Text Label 7550 1450 2    50   ~ 0
+Text Label 7550 3100 2    50   ~ 0
 LED_SIGNAL_GREEN
-Text Label 7550 1550 2    50   ~ 0
+Text Label 4950 3300 0    50   ~ 0
 LED_SIGNAL_GREEN2
 Wire Wire Line
-	6500 1450 7550 1450
+	6500 3100 7550 3100
 Wire Wire Line
-	6500 1550 7550 1550
+	6000 3300 4950 3300
 Wire Wire Line
-	5150 1450 6000 1450
+	5150 3200 6000 3200
 Wire Wire Line
-	5150 1550 6000 1550
+	7350 3200 6500 3200
 Text Label 7900 1350 0    50   ~ 0
 LED_SIGNAL_GREEN
 Text Label 7900 1650 0    50   ~ 0
@@ -1032,6 +1028,10 @@ Wire Wire Line
 	6500 6000 6650 6000
 Wire Wire Line
 	7850 5050 7850 5400
+NoConn ~ 6500 1450
+NoConn ~ 6500 1550
+NoConn ~ 6000 1550
+NoConn ~ 6000 1450
 Wire Bus Line
 	9100 4150 9100 4350
 Wire Bus Line

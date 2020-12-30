@@ -71,7 +71,7 @@ AR Path="/5FF7CC90/600650EF" Ref="J?"  Part="1"
 AR Path="/600650EF" Ref="J1"  Part="1" 
 F 0 "J1" H 3000 1750 50  0000 R CNN
 F 1 "Screw_Terminal_AC100VHOT" H 4050 1850 50  0000 R CNN
-F 2 "" H 2950 1850 50  0001 C CNN
+F 2 "MyFootPrintLibrary:PCB-20(632)F" H 2950 1850 50  0001 C CNN
 F 3 "~" H 2950 1850 50  0001 C CNN
 	1    2950 1850
 	-1   0    0    1   
@@ -84,7 +84,7 @@ AR Path="/5FF7CC90/600650F6" Ref="J?"  Part="1"
 AR Path="/600650F6" Ref="J2"  Part="1" 
 F 0 "J2" H 3000 2100 50  0000 R CNN
 F 1 "Screw_Terminal_AC100VCOLD" H 4100 2000 50  0000 R CNN
-F 2 "" H 2950 2000 50  0001 C CNN
+F 2 "MyFootPrintLibrary:PCB-20(632)F" H 2950 2000 50  0001 C CNN
 F 3 "~" H 2950 2000 50  0001 C CNN
 	1    2950 2000
 	-1   0    0    1   
@@ -110,7 +110,7 @@ AR Path="/5FF7CDAA/601A79D5" Ref="J?"  Part="1"
 AR Path="/601A79D5" Ref="J3"  Part="1" 
 F 0 "J3" H 8716 2312 50  0000 R CNN
 F 1 "Screw_Terminal_UV_HOT" H 9700 2400 50  0000 R CNN
-F 2 "" H 8750 2400 50  0001 C CNN
+F 2 "MyFootPrintLibrary:PCB-20(632)F" H 8750 2400 50  0001 C CNN
 F 3 "~" H 8750 2400 50  0001 C CNN
 	1    8750 2400
 	1    0    0    1   
@@ -124,7 +124,7 @@ AR Path="/5FF7CDAA/601A84D5" Ref="J?"  Part="1"
 AR Path="/601A84D5" Ref="J4"  Part="1" 
 F 0 "J4" H 8716 2462 50  0000 R CNN
 F 1 "Screw_Terminal_UV_COLD" H 9750 2550 50  0000 R CNN
-F 2 "" H 8750 2550 50  0001 C CNN
+F 2 "MyFootPrintLibrary:PCB-20(632)F" H 8750 2550 50  0001 C CNN
 F 3 "~" H 8750 2550 50  0001 C CNN
 	1    8750 2550
 	1    0    0    1   
@@ -138,7 +138,7 @@ AR Path="/5FF7CDAA/601B6172" Ref="J?"  Part="1"
 AR Path="/601B6172" Ref="J5"  Part="1" 
 F 0 "J5" H 8716 2612 50  0000 R CNN
 F 1 "Screw_Terminal_HEATER_HOT" H 9900 2700 50  0000 R CNN
-F 2 "" H 8750 2700 50  0001 C CNN
+F 2 "MyFootPrintLibrary:PCB-20(632)F" H 8750 2700 50  0001 C CNN
 F 3 "~" H 8750 2700 50  0001 C CNN
 	1    8750 2700
 	1    0    0    1   
@@ -152,7 +152,7 @@ AR Path="/5FF7CDAA/601B6178" Ref="J?"  Part="1"
 AR Path="/601B6178" Ref="J6"  Part="1" 
 F 0 "J6" H 8716 2762 50  0000 R CNN
 F 1 "Screw_Terminal_HEATER_COLD" H 9950 2850 50  0000 R CNN
-F 2 "" H 8750 2850 50  0001 C CNN
+F 2 "MyFootPrintLibrary:PCB-20(632)F" H 8750 2850 50  0001 C CNN
 F 3 "~" H 8750 2850 50  0001 C CNN
 	1    8750 2850
 	1    0    0    1   
@@ -166,7 +166,7 @@ AR Path="/5FF7CDAA/601B68F5" Ref="J?"  Part="1"
 AR Path="/601B68F5" Ref="J7"  Part="1" 
 F 0 "J7" H 8716 2912 50  0000 R CNN
 F 1 "Screw_Terminal_FAN_HOT" H 9750 3000 50  0000 R CNN
-F 2 "" H 8750 3000 50  0001 C CNN
+F 2 "MyFootPrintLibrary:PCB-20(632)F" H 8750 3000 50  0001 C CNN
 F 3 "~" H 8750 3000 50  0001 C CNN
 	1    8750 3000
 	1    0    0    1   
@@ -180,7 +180,7 @@ AR Path="/5FF7CDAA/601B68FB" Ref="J?"  Part="1"
 AR Path="/601B68FB" Ref="J8"  Part="1" 
 F 0 "J8" H 8716 3062 50  0000 R CNN
 F 1 "Screw_Terminal_FAN_COLD" H 9800 3150 50  0000 R CNN
-F 2 "" H 8750 3150 50  0001 C CNN
+F 2 "MyFootPrintLibrary:PCB-20(632)F" H 8750 3150 50  0001 C CNN
 F 3 "~" H 8750 3150 50  0001 C CNN
 	1    8750 3150
 	1    0    0    1   
@@ -296,4 +296,70 @@ Wire Bus Line
 	3250 3850 3250 4150
 Wire Bus Line
 	3250 4150 3000 4150
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 602F013A
+P 1100 900
+F 0 "H1" H 1200 946 50  0000 L CNN
+F 1 "MountingHole" H 1200 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1100 900 50  0001 C CNN
+F 3 "~" H 1100 900 50  0001 C CNN
+	1    1100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 602F01B4
+P 10250 850
+F 0 "H3" H 10350 896 50  0000 L CNN
+F 1 "MountingHole" H 10350 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10250 850 50  0001 C CNN
+F 3 "~" H 10250 850 50  0001 C CNN
+	1    10250 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 602F034D
+P 1300 5300
+F 0 "H2" H 1400 5346 50  0000 L CNN
+F 1 "MountingHole" H 1400 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1300 5300 50  0001 C CNN
+F 3 "~" H 1300 5300 50  0001 C CNN
+	1    1300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 602F03DD
+P 10350 5200
+F 0 "H4" H 10450 5246 50  0000 L CNN
+F 1 "MountingHole" H 10450 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10350 5200 50  0001 C CNN
+F 3 "~" H 10350 5200 50  0001 C CNN
+	1    10350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60352EDE
+P 5250 5300
+F 0 "H5" H 5350 5346 50  0000 L CNN
+F 1 "MountingHole" H 5350 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5250 5300 50  0001 C CNN
+F 3 "~" H 5250 5300 50  0001 C CNN
+	1    5250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60352F59
+P 6150 5250
+F 0 "H6" H 6250 5296 50  0000 L CNN
+F 1 "MountingHole" H 6250 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 5250 50  0001 C CNN
+F 3 "~" H 6150 5250 50  0001 C CNN
+	1    6150 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

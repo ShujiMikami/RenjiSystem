@@ -284,9 +284,6 @@ $EndComp
 Wire Wire Line
 	7300 2350 7150 2350
 Connection ~ 7300 2350
-NoConn ~ 4100 1250
-NoConn ~ 8250 1300
-NoConn ~ 4100 4000
 Wire Wire Line
 	4250 4600 4000 4600
 Wire Wire Line
@@ -294,7 +291,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 1850 4000 1850
 Wire Wire Line
-	3900 950  3900 1250
+	4100 950  4100 1250
 Connection ~ 3600 5250
 Wire Wire Line
 	3600 5250 3600 5350
@@ -343,18 +340,18 @@ F 3 "" H 3150 2600 50  0001 C CNN
 	1    3150 2600
 	1    0    0    -1  
 $EndComp
-Text HLabel 3750 950  0    50   Output ~ 0
+Text HLabel 3950 950  0    50   Output ~ 0
 UV_DRIVE_HOT
-Text HLabel 7950 850  0    50   Output ~ 0
+Text HLabel 8150 850  0    50   Output ~ 0
 HEATER_DRIVE_HOT
-Text HLabel 3650 3750 0    50   Output ~ 0
+Text HLabel 3850 3750 0    50   Output ~ 0
 FAN_DRIVE_HOT
 Wire Wire Line
-	8050 850  7950 850 
+	8250 850  8150 850 
 Wire Wire Line
-	8050 850  8050 1300
+	8250 850  8250 1300
 Wire Wire Line
-	3900 950  3750 950 
+	4100 950  3950 950 
 Text HLabel 4900 3850 0    50   Input ~ 0
 AC100V_COLD
 Text HLabel 9200 1050 0    50   Input ~ 0
@@ -374,9 +371,9 @@ Wire Wire Line
 Wire Wire Line
 	4900 3850 5300 3850
 Wire Wire Line
-	3900 3750 3650 3750
+	4100 3750 3850 3750
 Wire Wire Line
-	3900 3750 3900 4000
+	4100 3750 4100 4000
 Text HLabel 4250 4600 2    50   Input ~ 0
 AC100V_HOT
 Text HLabel 8400 1900 2    50   Input ~ 0
@@ -435,6 +432,9 @@ Text HLabel 3600 3850 0    50   Input ~ 0
 CTRL_POWER_IN
 Wire Wire Line
 	3600 4000 3600 3850
+NoConn ~ 3900 1250
+NoConn ~ 8050 1300
+NoConn ~ 3900 4000
 Wire Bus Line
 	9650 3600 9650 4200
 $EndSCHEMATC
