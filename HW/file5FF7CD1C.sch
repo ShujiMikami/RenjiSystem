@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -48,7 +48,6 @@ NoConn ~ 2700 1950
 Wire Wire Line
 	3200 2250 3800 2250
 NoConn ~ 2700 2150
-NoConn ~ 3200 2150
 $Comp
 L Device:C C?
 U 1 1 5FFBD9CF
@@ -1032,6 +1031,10 @@ NoConn ~ 6500 1450
 NoConn ~ 6500 1550
 NoConn ~ 6000 1550
 NoConn ~ 6000 1450
+Text HLabel 3800 2150 2    50   Input ~ 0
+ThermistorIn
+Wire Wire Line
+	3800 2150 3200 2150
 Wire Bus Line
 	9100 4150 9100 4350
 Wire Bus Line

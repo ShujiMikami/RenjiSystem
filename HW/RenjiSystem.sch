@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -25,7 +25,7 @@ F4 "DC3.3V" O L 4000 2100 50
 F5 "DC5V" O R 5100 2000 50 
 $EndSheet
 $Sheet
-S 4050 2500 1050 1500
+S 4050 2500 1050 1750
 U 5FF7CD1D
 F0 "MCU" 50
 F1 "file5FF7CD1C.sch" 50
@@ -38,6 +38,7 @@ F7 "UART1[1..0]" B L 4050 3550 50
 F8 "UART2[1..0]" B L 4050 3650 50 
 F9 "SWITCH_SIGNAL[6..0]" I L 4050 3850 50 
 F10 "LED_SIGNAL[3..0]" O R 5100 3950 50 
+F11 "ThermistorIn" I L 4050 4150 50 
 $EndSheet
 $Sheet
 S 6700 1500 1450 2100
@@ -284,8 +285,6 @@ Wire Bus Line
 Wire Wire Line
 	3000 3000 3650 3000
 Connection ~ 3650 3000
-Wire Wire Line
-	3650 3000 3650 3750
 Wire Bus Line
 	3000 3450 4050 3450
 Wire Bus Line
@@ -362,4 +361,29 @@ F 3 "~" H 6150 5250 50  0001 C CNN
 	1    6150 5250
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 2500 4850 1350 500 
+U 60353685
+F0 "ThermistorBlock" 50
+F1 "file60353684.sch" 50
+F2 "VDA_IN" I L 2500 5000 50 
+F3 "ThermistorOut" O R 3850 5000 50 
+$EndSheet
+Wire Wire Line
+	3650 4700 2450 4700
+Wire Wire Line
+	2450 4700 2450 5000
+Wire Wire Line
+	2450 5000 2500 5000
+Wire Wire Line
+	3650 3000 3650 3750
+Connection ~ 3650 3750
+Wire Wire Line
+	3650 3750 3650 4700
+Wire Wire Line
+	3850 5000 3950 5000
+Wire Wire Line
+	3950 5000 3950 4150
+Wire Wire Line
+	3950 4150 4050 4150
 $EndSCHEMATC
